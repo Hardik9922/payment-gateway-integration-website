@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/he.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type:none ;
+    margin-top: 20px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration:none;
+    color: rgb(217, 240, 13);
+    padding: 5px 30px;
+    border: 2px solid transparent;
+
+}
+
+ul li a:hover{
+    background-color: rgb(247, 166, 17);
+    color: rgb(255, 253, 253);
+    transition: 0.6s ease;
+}
+
+ul li.active a{
+    background-color: rgb(247, 166, 17);
+    color: rgb(255, 253, 253);
+}
+
+.logo img{
+    float: left;
+    width:100px;
+    height:100px ;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top:30%;
+    left:32%;
+    transform: translate(-50%-50%);
+}
+
+.title h1{
+    color: rgba(53, 253, 203);
+    font-size:80px;
+ 
+}
+
+.slogan{
+    position: absolute;
+    background-color: rgb(252, 82, 70);
+    box-shadow: 1px 1px 5px rgba(248, 192, 6, 0.918);
+    border-radius: 30px;
+    top: 57%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.slogan p{
+    color: rgb(0, 0, 0);
+    padding: 2px 1rem;
+    font-weight: 600;
+    font-size:18px;
+}
+
+.button{
+    position: absolute;
+    top:45%;
+    left:45%;
+    transform: translate(-50%-50%);
+    border: 1px solid  rgba(77, 60, 230, 0.966);
+}
+
+.btn:hover{
+    background-color: rgb(10, 1, 1);
+    color: rgb(253, 250, 250);
+    transition: 0.6s ease;
+
+
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 70%!important;
+}
+
+

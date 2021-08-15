@@ -1,0 +1,125 @@
+* {
+        margin: 0;
+        padding: 0;
+        font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.carousel-inner img {
+   width: 100%;
+   height: 80vh;
+}
+  
+footer{
+   background-color:#332e27!important;
+   color: whitesmoke;
+}
+  
+.nav{
+   color: rgb(250, 247, 244);
+}
+footer.py2{
+   margin-bottom: 3rem;
+}
+
+.jumbotron{
+ text-align: center!important;
+ padding: 1rem!important ;
+}
+  
+.screen-body-item {
+ text-align: center;
+}
+button,input {
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 700;
+ letter-spacing: 1.4px;
+}
+.img-fluid{
+   height: 40vh !important;
+}
+
+button,input {
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 700;
+ letter-spacing: 1.4px;
+}
+
+button,input {
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 700;
+ letter-spacing: 1.4px;
+}
+.background {
+ width: 100%;
+ display: flex;
+}
+   
+.container {
+ flex: 0 1 700px;
+ width: 100%;
+ margin: auto;
+ padding: 10px;
+}
+
+*{padding: 0; margin: 0; box-sizing: border-box;}
+.container{
+    width: 80%;
+    height: 70vh;
+    background: transparent;
+    color: rgba(7, 6, 6, 0.959);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 1px 1px 8px rgb(0, 0, 0); */
+}
+
+h2{
+    margin: 10px;
+}
+
+ul{
+    float: right;
+    list-style-type:none ;
+    margin-top: 20px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration:none;
+    color: rgb(217, 240, 13);
+    padding: 5px 30px;
+    border: 6px solid transparent;
+
+}
+
+ul li a:hover{
+    background-color: rgb(247, 166, 17);
+    color: rgb(255, 253, 253);
+    transition: 0.6s ease;
+}
+
+ul li.active a{
+    background-color: rgb(247, 166, 17);
+    color: rgb(255, 253, 253);
+}
+
+.button{
+    position: absolute;
+    top:89%;
+    left:46%;
+    transform: translate(-50%-50%);
+}
+
+.btn{
+    border: 1px solid  rgb(77, 60, 230, 0.966);
+    padding: 10px 30px;
+    color:  rgb(58, 117, 73);
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+
